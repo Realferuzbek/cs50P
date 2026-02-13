@@ -1,5 +1,5 @@
 def main():
-    name=input("What's your name? ")
+    name=input("What's your name? ")  # noqa: F841
     main(main)
     
 
